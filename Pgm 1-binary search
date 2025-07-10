@@ -1,0 +1,10 @@
+ASSIGNMENT SYNTAX:
+def binary_search(arr, low, high, key):
+•  The list must be sorted.
+•  Find the middle element.
+•  If the middle is the target, return the index.
+•  If the target is less than the middle, search in the left half.
+•  If the target is greater than the middle, search in the right half.
+mid = (low + high) 
+if arr[mid] == key:
+elif key < arr[mid]:
